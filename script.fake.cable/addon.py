@@ -4,8 +4,8 @@ import xbmcgui
 addon       = xbmcaddon.Addon()
 addonname   = addon.getAddonInfo('name')
 
-line1 = "Hello World!"
-line2 = "We can write anything we want here"
-line3 = "Using Python"
+line1 = "Fake Cable!"
+line2 = "This is Fake Cable!"
+line3 = "Fake Cable, I tell you!"
 
 xbmcgui.Dialog().ok(addonname, line1, line2, line3)

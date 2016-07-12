@@ -17,6 +17,25 @@
     </extension>
 </addon>
 
+<addon id="script.fake.cable" name="Fake Cable" version="1.0.0" provider-name="ericyoung">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Fake Cable</summary>
+		<description lang="en">Script to play a random movie at a random time</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum></forum>
+		<source>https://github.com/ericyoung/kodi-repo-bootstrap/script.fake.cable</source>
+		<email>youngeric@gmail.com</email>
+	</extension>
+</addon>
+
 <addon id="script.hello.world" name="Hello World" version="1.0.0" provider-name="zag">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
